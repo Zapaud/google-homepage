@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <title>Søg søg søg</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div class="header">
@@ -12,16 +14,21 @@
             <li><a href="profile">PICTURE</a></li>
          </ul>
         </div>
-        <div class="middle">
+        <div class="content">
             <img src="googlelogo.png" alt="Googles logo">
             <form>
-                <input type="text" name="searchfield"><br>
-                <input type="submit" value="Google-søgning">
-                <input type="submit" value="Jeg prøver lykken">
+                <input id="textfield" type="text" name="searchfield"><br>
+                <input class="button" type="submit" value="Google-søgning">
+                <input class="button" type="submit" value="Jeg prøver lykken">
             </form>
             <P>
-                Google er tilgængelig på <a href="https://www.google.com">Engelsk</a>
+                Google er tilgængelig på: <a href="https://www.google.com">Engelsk</a>
             </P>
+        </div>
+        <div id=country>
+            <p>
+                Danmark
+            </p>
         </div>
         <div class="footer">
             <ul>

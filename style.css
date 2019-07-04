@@ -1,3 +1,5 @@
+/******************** general ******************/
+
 * {
   margin: 0;
   padding: 0;
@@ -6,45 +8,133 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;}
-
-a {
-color: blue;
-text-decoration: none;
+  font-size: small;
 }
 
-ul a, #country {
-  color: #5f6368;
+/******************** header ******************/
+
+.header-container {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-a:hover {
-  text-decoration-line: underline;
+.header {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apps-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.profile-logo {
+  height: 35px;
+  width: 35px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/******************** content ******************/
+
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  height: 570px;
+}
+
+.content {
+  width: 600px;
+  height: 300px;
+  margin: 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.form-layout {
+  width: 600px;
+  flex-wrap: wrap;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
-background-color: #f2f2f2;
-color: #5f6368;
-border: none;
-padding: 10px;
-margin: 20px 5px;
-border-radius: 4px;
-border: 1px solid transparent;
-}
-
-.button:hover {
-border: 1px solid #5f6368;
-}
-
-#textfield {
-  width: 500px;
-  height: 40px;
-}
-
-.footer, #country {
   background-color: #f2f2f2;
+  color: #5f6368;
+  border: none;
+  padding: 12px;
+  margin: 20px 7px 0px 7px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+  
+.button:hover {
+  border: 1px solid #5f6368;
+  color: black;
+}
+  
+ .textfield {
+    width: 550px;
+    height: 40px;
+    font-size: 1.2em;
+}
+  
+
+/******************** footer ******************/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header, .content, .footer, #country  {
-  border: 1px solid red;
+.footer-item {
+  padding: 0px 10px;
 }
 
+.footer-five {
+  margin-left: auto;
+}
+
+.footer a, .country {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+  }
+
+.footer, .country {
+  background-color: #f2f2f2;
+  padding: 10px 10px;
+}
+
+.country {
+  font-size: 1.2em;
+  padding-left: 20px;
+}

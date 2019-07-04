@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Søg søg søg</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Søg søg søg</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="header-container">
         <div class="header">
-        <ul>
-            <li><a href="gmail">Gmail</a></li>
-            <li><a href="pictures">Billeder</a></li>
-            <li><a href="otherApps">PICTURE</a></li>
-            <li><a href="profile">PICTURE</a></li>
-         </ul>
+            <a href="gmail">Gmail</a>
+            <a href="pictures">Billeder</a>
+            <a href="apps-logo"><img class="apps-logo" src="images/apps.PNG"></a>
+            <a href="profile-logo"><img class="profile-logo" src="images/profile.PNG"></a>
         </div>
+    </div>
+
+    <div class="content-container">
         <div class="content">
             <img src="googlelogo.png" alt="Googles logo">
-            <form>
-                <input id="textfield" type="text" name="searchfield"><br>
-                <input class="button" type="submit" value="Google-søgning">
-                <input class="button" type="submit" value="Jeg prøver lykken">
-            </form>
+                <form class="form-layout">
+                    <input class="textfield" type="text" name="searchfield">
+                    <input class="button" type="submit" value="Google-søgning">
+                    <input class="button" type="submit" value="Jeg prøver lykken">
+                </form>
             <P>
                 Google er tilgængelig på: <a href="https://www.google.com">Engelsk</a>
             </P>
         </div>
-        <div id=country>
-            <p>
-                Danmark
-            </p>
-        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="country">Danmark</div>
         <div class="footer">
-            <ul>
-                <li><a href="advertising">Annoncering</a></li>
-                <li><a href="business">Erhverv</a></li>
-                <li><a href="about">Om</a></li>
-                <li><a href="googleSearchAlgorithm">Sådan fungerer Google Søgning</a></li>
-                <li class="footerright"><a href="privacy">Privatliv</a></li>
-                <li class="footerright"><a href="terms">Vilkår</a></li>
-                <li class="footerright"><a href="settings">Indstillinger</a></li>
-            </ul>
+            <div class="footer-item footer-one"><a href="advertising">Annoncering</a></div>
+            <div class="footer-item footer-two"><a href="erhverv">Erhverv</a></div>
+            <div class="footer-item footer-three"><a href="about">Om</a></div>
+            <div class="footer-item footer-four"><a href="googleSearchAlgorithm">Sådan fungerer Google Søgning</a></div>
+            <div class="footer-item footer-five"><a href="privacy">Privatliv</a></div>
+            <div class="footer-item footer-six"><a href="terms">Vilkår</a></div>
+            <div class="footer-item footer-seven"><a href="settings">Indstillinger</a></div>
         </div>
-    </body>
+    </div>
+
+</body>
 </html>
